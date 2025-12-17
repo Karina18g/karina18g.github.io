@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>GRUPO TECNOLOGICO FLOW S.R.L.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: #0b0b0f;
+            color: #ffffff;
+        }
+        section {
+            padding: 80px 10%;
+        }
+        h1, h2, h3 {
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+        h1 {
+            font-size: 48px;
+            color: #00fff0;
+            text-shadow: 0 0 15px #00fff0;
+        }
+        h2 {
+            font-size: 36px;
+            color: #ff00ff;
+            text-shadow: 0 0 10px #ff00ff;
+        }
+        h3 {
+            font-size: 22px;
+            color: #00ff99;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            max-width: 900px;
+        }
+        .hero {
+            height: 100vh;
+            background: radial-gradient(circle at top, #1a1a2e, #000);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .hero p {
+            font-size: 20px;
+            color: #f0f0f0;
+        }
+        .grid-3 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+        }
+        .card {
+            background: rgba(255,255,255,0.05);
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 0 20px rgba(0,255,255,0.1);
+        }
+        .process-step {
+            font-size: 20px;
+            color: #ffffff;
+        }
+        .contact {
+            height: 100vh;
+            display: flex;
+            gap: 60px;
+            align-items: center;
+            background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+        }
+        .contact-form {
+            background: rgba(0,0,0,0.4);
+            padding: 40px;
+            border-radius: 15px;
+            max-width: 400px;
+            width: 100%;
+        }
+        input, textarea {
+            width: 100%;
+            margin-bottom: 15px;
+            padding: 12px;
+            border-radius: 8px;
+            border: none;
+            font-size: 16px;
+        }
+        footer {
+            background: #050508;
+            padding: 30px 10%;
+            text-align: center;
+            font-size: 14px;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+
+<!-- 1. HERO -->
+<section class="hero">
+    <h1>GRUPO TECNOLOGICO FLOW S.R.L.</h1>
+    <p>
+        Impulsamos negocios a través de tecnología aplicada, desarrollo de software y soluciones digitales hechas a medida.
+        Combinamos análisis de datos, consultoría informática y comercio electrónico para transformar ideas en sistemas reales,
+        escalables y rentables. Tecnología que fluye, resultados que crecen.
+    </p>
+</section>
+
+<!-- 2. ABOUT -->
+<section>
+    <h2>Quiénes Somos</h2>
+    <p>
+        GRUPO TECNOLOGICO FLOW S.R.L. es una empresa especializada en consultoría informática y desarrollo de soluciones digitales
+        orientadas a la eficiencia y el crecimiento empresarial. Trabajamos con datos, procesos y tecnología para crear sistemas
+        sólidos y adaptados a cada cliente. Nuestro enfoque combina análisis profundo, desarrollo estratégico y ejecución técnica.
+        Acompañamos a las organizaciones desde la idea inicial hasta la implementación final. Creemos en soluciones claras,
+        medibles y alineadas a los objetivos reales del negocio.
+    </p>
+</section>
+
+<!-- 3. SERVICES -->
+<section>
+    <h2>Nuestras Soluciones Digitales</h2>
+    <div class="grid-3">
+        <div class="card">
+            <h3>Consultoría Informática Estratégica</h3>
+            <p>
+                Analizamos la infraestructura tecnológica, procesos y flujos de información de tu empresa.
+                Identificamos oportunidades de mejora, automatización y optimización digital.
+                Diseñamos planes tecnológicos concretos orientados a resultados reales.
+            </p>
+        </div>
+        <div class="card">
+            <h3>Desarrollo de Software a Medida</h3>
+            <p>
+                Creamos aplicaciones y sistemas personalizados según las necesidades del negocio.
+                Desarrollamos soluciones escalables, seguras y fáciles de mantener.
+                Acompañamos todo el ciclo: diseño, desarrollo, pruebas e implementación.
+            </p>
+        </div>
+        <div class="card">
+            <h3>Comercio Electrónico y Datos</h3>
+            <p>
+                Implementamos plataformas de e-commerce eficientes y orientadas a conversión.
+                Integramos análisis de datos para entender el comportamiento del usuario.
+                Optimizamos procesos de venta, gestión y toma de decisiones.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- 4. ADVANTAGES -->
+<section>
+    <h2>Por Qué Elegir FLOW</h2>
+    <div class="grid-3">
+        <div class="card">
+            <h3>Enfoque Realista</h3>
+            <p>
+                No vendemos soluciones genéricas. Analizamos el contexto y proponemos tecnología útil,
+                alineada al presupuesto y objetivos del cliente.
+            </p>
+        </div>
+        <div class="card">
+            <h3>Visión Integral</h3>
+            <p>
+                Combinamos datos, software y negocio en un solo enfoque estratégico,
+                evitando soluciones aisladas o desconectadas.
+            </p>
+        </div>
+        <div class="card">
+            <h3>Acompañamiento Continuo</h3>
+            <p>
+                Trabajamos junto al cliente durante todo el proceso,
+                asegurando implementación correcta y evolución constante.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- 5. PROCESS -->
+<section>
+    <h2>Nuestro Flujo de Trabajo</h2>
+    <div class="grid-3">
+        <div class="card process-step">
+            <h3>1. Análisis y Diagnóstico</h3>
+            <p>
+                Evaluamos necesidades, datos, procesos y objetivos para definir una estrategia clara.
+            </p>
+        </div>
+        <div class="card process-step">
+            <h3>2. Diseño y Desarrollo</h3>
+            <p>
+                Creamos la solución tecnológica adecuada, validando cada etapa del desarrollo.
+            </p>
+        </div>
+        <div class="card process-step">
+            <h3>3. Implementación y Optimización</h3>
+            <p>
+                Implementamos el sistema y ajustamos su funcionamiento según resultados reales.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- 6. CONTACT -->
+<section class="contact">
+    <div>
+        <h2>Conectemos Tecnología y Negocio</h2>
+        <p>
+            Si estás buscando una solución tecnológica concreta y bien pensada, hablemos.
+            Nuestro equipo está listo para analizar tu proyecto y acompañarte en su desarrollo.
+            Escribinos y comencemos a crear soluciones que realmente funcionen.
+        </p>
+        <p>
+            📧 box@grupotecnologicoflow.info<br>
+            📍 Av Independencia 3399 Piso 2 DPTO 3, Ciudad de Buenos Aires, 1225
+        </p>
+    </div>
+    <div class="contact-form">
+        <h3>Formulario de Contacto</h3>
+        <input type="text" placeholder="Nombre">
+        <input type="email" placeholder="Correo electrónico">
+        <textarea rows="4" placeholder="Mensaje"></textarea>
+        <input type="submit" value="Enviar">
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    © 2025 GRUPO TECNOLOGICO FLOW S.R.L. · Tecnología, Datos y Software con Propósito
+</footer>
+
+</body>
+</html>
